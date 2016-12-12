@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="geometric.QuadrilateralsProxy" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/QuadrilateralsProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="208" x="1060" y="608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="geometric.Pentagon" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/Pentagon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="455" y="885"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="geometric.PentagonProxy" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/PentagonProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="208" x="353" y="608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="geometric.CircleInterface" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/CircleInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="292" y="1136"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="geometric.Triangle" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/Triangle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="878" y="861"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="geometric.CircleNames" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/CircleNames.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="117" y="1110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="geometric.QuadrilateralsNames" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/QuadrilateralsNames.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="145" x="1006" y="1066"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="geometric.PentagonNames" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/PentagonNames.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="152" x="411" y="1066"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="geometric.Circle" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/Circle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="165" y="889"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="geometric.Quadrilaterals" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/Quadrilaterals.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="248" x="1060" y="765"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="geometric.CircleProxy" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/CircleProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="208" x="63" y="608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="geometric.ShapesTest" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/ShapesTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="940" y="274"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="geometric.QuadrilateralsInterface" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/QuadrilateralsInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="156" x="1394" y="1066"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="14" language="java" name="geometric.PentagonInterface" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/PentagonInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="174" x="603" y="1066"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="geometric.Shape" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/Shape.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="673" y="471"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" name="geometric.QuadrilateralsInterface2" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/QuadrilateralsInterface2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="163" x="1191" y="1066"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="geometric.TriangleInterface" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/TriangleInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="877" y="1112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="geometric.TriangleProxy" project="3a-DynamicProxy" 
+    file="/3a-DynamicProxy/src/geometric/TriangleProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="208" x="770" y="608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="20">    
+    <bendpoint x="542" y="787"/>    
+    <bendpoint x="617" y="761"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="21">    
+    <bendpoint x="461" y="502"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="23">    
+    <bendpoint x="1359" y="608"/>    
+    <bendpoint x="1359" y="765"/>    
+    <bendpoint x="1360" y="1001"/>    
+    <bendpoint x="1472" y="1001"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="24" name="q">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="27">    
+    <bendpoint x="281" y="538"/>    
+    <bendpoint x="281" y="742"/>    
+    <bendpoint x="205" y="744"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <realization id="28">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <dependency id="30">    
+    <bendpoint x="574" y="739"/>    
+    <bendpoint x="487" y="741"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <realization id="31">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="33">    
+    <bendpoint x="1061" y="792"/>    
+    <bendpoint x="984" y="792"/>    
+    <bendpoint x="985" y="589"/>    
+    <bendpoint x="728" y="589"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="34">    
+    <bendpoint x="691" y="746"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="35" name="p">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="36" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="37">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <dependency id="38">    
+    <bendpoint x="172" y="558"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="39">    
+    <bendpoint x="1011" y="601"/>    
+    <bendpoint x="1011" y="741"/>    
+    <bendpoint x="906" y="741"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <generalization id="41">    
+    <bendpoint x="242" y="787"/>    
+    <bendpoint x="333" y="787"/>    
+    <bendpoint x="332" y="558"/>    
+    <bendpoint x="631" y="558"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="42">    
+    <bendpoint x="1298" y="608"/>    
+    <bendpoint x="1299" y="740"/>    
+    <bendpoint x="1212" y="740"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <realization id="43">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <association id="44">    
+    <bendpoint x="1029" y="608"/>    
+    <bendpoint x="1026" y="1000"/>    
+    <bendpoint x="948" y="1000"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="45" name="t">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="46" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="47">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <generalization id="48">    
+    <bendpoint x="804" y="793"/>    
+    <bendpoint x="731" y="793"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="49">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <realization id="50">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="51">    
+    <bendpoint x="1338" y="608"/>    
+    <bendpoint x="1338" y="765"/>    
+    <bendpoint x="1338" y="1033"/>    
+    <bendpoint x="1280" y="1033"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="52" name="q2">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="53" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <bendpoint x="294" y="549"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="55" name="c">        
+        <position height="0" width="0" x="-1" y="3"/>      
+      </attribute>      
+      <multiplicity id="56" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1" y="3"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="57">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

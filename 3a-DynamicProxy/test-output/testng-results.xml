@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="138" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="138" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+      <class name="geometric.ShapesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="19" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCircle1()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testCircle1" duration-ms="9" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCircle1 -->
+        <test-method status="PASS" signature="testCircle2()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testCircle2" duration-ms="3" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCircle2 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="0" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCircle3()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testCircle3" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCircle3 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="0" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNumber1()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testNumber1" duration-ms="2" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumber1 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNumber2()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testNumber2" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumber2 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNumber3()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testNumber3" duration-ms="6" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumber3 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="0" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPentagon1()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testPentagon1" duration-ms="2" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPentagon1 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPentagon2()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testPentagon2" duration-ms="2" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPentagon2 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPentagon3()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testPentagon3" duration-ms="2" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPentagon3 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testQuad1()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testQuad1" duration-ms="2" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuad1 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testQuad2()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testQuad2" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuad2 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="0" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testQuad3()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testQuad3" duration-ms="2" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuad3 -->
+        <test-method status="PASS" signature="testQuad4()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testQuad4" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuad4 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="0" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testTriangle1()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testTriangle1" duration-ms="3" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangle1 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="2" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testTriangle2()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testTriangle2" duration-ms="3" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangle2 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="5" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testTriangle3()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testTriangle3" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangle3 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="0" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testTriangle4()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testTriangle4" duration-ms="2" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangle4 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="setup" is-config="true" duration-ms="0" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testTriangle5()[pri:0, instance:geometric.ShapesTest@6d78f375]" name="testTriangle5" duration-ms="1" started-at="2016-11-05T13:49:06Z" finished-at="2016-11-05T13:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangle5 -->
+      </class> <!-- geometric.ShapesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

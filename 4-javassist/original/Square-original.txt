@@ -1,0 +1,118 @@
+Classfile /C:/Users/sbrown/Documents/eclipse-workspace-mars/4-javassist/bin/sb/Square.class
+  Last modified 02-Jul-2016; size 654 bytes
+  MD5 checksum cc6854c47b9d8b1b55ee0dbf27911c56
+  Compiled from "Square.java"
+public class sb.Square extends sb.Shape implements sb.Named
+  SourceFile: "Square.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Class              #2             //  sb/Square
+   #2 = Utf8               sb/Square
+   #3 = Class              #4             //  sb/Shape
+   #4 = Utf8               sb/Shape
+   #5 = Class              #6             //  sb/Named
+   #6 = Utf8               sb/Named
+   #7 = Utf8               l
+   #8 = Utf8               I
+   #9 = Utf8               name
+  #10 = Utf8               Ljava/lang/String;
+  #11 = Utf8               <init>
+  #12 = Utf8               ()V
+  #13 = Utf8               Code
+  #14 = Methodref          #3.#15         //  sb/Shape."<init>":()V
+  #15 = NameAndType        #11:#12        //  "<init>":()V
+  #16 = Fieldref           #1.#17         //  sb/Square.l:I
+  #17 = NameAndType        #7:#8          //  l:I
+  #18 = String             #19            //  Square-1
+  #19 = Utf8               Square-1
+  #20 = Fieldref           #1.#21         //  sb/Square.name:Ljava/lang/String;
+  #21 = NameAndType        #9:#10         //  name:Ljava/lang/String;
+  #22 = Utf8               LineNumberTable
+  #23 = Utf8               LocalVariableTable
+  #24 = Utf8               this
+  #25 = Utf8               Lsb/Square;
+  #26 = Utf8               getName
+  #27 = Utf8               ()Ljava/lang/String;
+  #28 = Utf8               setl
+  #29 = Utf8               (I)V
+  #30 = Utf8               len
+  #31 = Utf8               x
+  #32 = Utf8               getl
+  #33 = Utf8               ()I
+  #34 = Utf8               SourceFile
+  #35 = Utf8               Square.java
+{
+  public sb.Square();
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #14                 // Method sb/Shape."<init>":()V
+         4: aload_0       
+         5: iconst_m1     
+         6: putfield      #16                 // Field l:I
+         9: aload_0       
+        10: ldc           #18                 // String Square-1
+        12: putfield      #20                 // Field name:Ljava/lang/String;
+        15: return        
+      LineNumberTable:
+        line 3: 0
+        line 5: 4
+        line 6: 9
+        line 3: 15
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0      16     0  this   Lsb/Square;
+
+  public java.lang.String getName();
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: getfield      #20                 // Field name:Ljava/lang/String;
+         4: areturn       
+      LineNumberTable:
+        line 9: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0       5     0  this   Lsb/Square;
+
+  public void setl(int);
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iload_1       
+         1: iconst_1      
+         2: iadd          
+         3: istore_2      
+         4: aload_0       
+         5: iload_2       
+         6: iconst_1      
+         7: isub          
+         8: putfield      #16                 // Field l:I
+        11: return        
+      LineNumberTable:
+        line 13: 0
+        line 14: 4
+        line 15: 11
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0      12     0  this   Lsb/Square;
+               0      12     1   len   I
+               4       8     2     x   I
+
+  public int getl();
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: getfield      #16                 // Field l:I
+         4: ireturn       
+      LineNumberTable:
+        line 18: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0       5     0  this   Lsb/Square;
+}

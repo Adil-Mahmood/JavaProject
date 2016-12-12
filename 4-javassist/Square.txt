@@ -1,0 +1,198 @@
+Classfile /C:/Users/sbrown/Documents/eclipse-workspace-mars/3-javassist/modified/sb/Square.class
+  Last modified 29-Jun-2016; size 1181 bytes
+  MD5 checksum 26342535708d9680b6b319f40deb6891
+  Compiled from "Square.java"
+public class sb.Square extends sb.Shape implements sb.Named
+  SourceFile: "Square.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Class              #2             //  sb/Square
+   #2 = Utf8               sb/Square
+   #3 = Class              #4             //  sb/Shape
+   #4 = Utf8               sb/Shape
+   #5 = Class              #6             //  sb/Named
+   #6 = Utf8               sb/Named
+   #7 = Utf8               l
+   #8 = Utf8               I
+   #9 = Utf8               name
+  #10 = Utf8               Ljava/lang/String;
+  #11 = Utf8               <init>
+  #12 = Utf8               ()V
+  #13 = Utf8               Code
+  #14 = Methodref          #3.#15         //  sb/Shape."<init>":()V
+  #15 = NameAndType        #11:#12        //  "<init>":()V
+  #16 = Fieldref           #1.#17         //  sb/Square.l:I
+  #17 = NameAndType        #7:#8          //  l:I
+  #18 = String             #19            //  Square-1
+  #19 = Utf8               Square-1
+  #20 = Fieldref           #1.#21         //  sb/Square.name:Ljava/lang/String;
+  #21 = NameAndType        #9:#10         //  name:Ljava/lang/String;
+  #22 = Utf8               LineNumberTable
+  #23 = Utf8               LocalVariableTable
+  #24 = Utf8               this
+  #25 = Utf8               Lsb/Square;
+  #26 = Utf8               getName
+  #27 = Utf8               ()Ljava/lang/String;
+  #28 = Utf8               setl
+  #29 = Utf8               (I)V
+  #30 = Utf8               len
+  #31 = Utf8               x
+  #32 = Utf8               getl
+  #33 = Utf8               ()I
+  #34 = Utf8               SourceFile
+  #35 = Utf8               Square.java
+  #36 = Utf8               java/lang/System
+  #37 = Class              #36            //  java/lang/System
+  #38 = Utf8               out
+  #39 = Utf8               Ljava/io/PrintStream;
+  #40 = NameAndType        #38:#39        //  out:Ljava/io/PrintStream;
+  #41 = Fieldref           #37.#40        //  java/lang/System.out:Ljava/io/PrintStream;
+  #42 = Utf8               setl() start
+  #43 = String             #42            //  setl() start
+  #44 = Utf8               java/io/PrintStream
+  #45 = Class              #44            //  java/io/PrintStream
+  #46 = Utf8               println
+  #47 = Utf8               (Ljava/lang/String;)V
+  #48 = NameAndType        #46:#47        //  println:(Ljava/lang/String;)V
+  #49 = Methodref          #45.#48        //  java/io/PrintStream.println:(Ljava/lang/String;)V
+  #50 = Utf8               setl() end
+  #51 = String             #50            //  setl() end
+  #52 = Utf8               StackMapTable
+  #53 = Utf8               java/lang/StringBuffer
+  #54 = Class              #53            //  java/lang/StringBuffer
+  #55 = Methodref          #54.#15        //  java/lang/StringBuffer."<init>":()V
+  #56 = Utf8               getl() started at: 
+  #57 = String             #56            //  getl() started at: 
+  #58 = Utf8               append
+  #59 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #60 = NameAndType        #58:#59        //  append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #61 = Methodref          #54.#60        //  java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+  #62 = Utf8               nanoTime
+  #63 = Utf8               ()J
+  #64 = NameAndType        #62:#63        //  nanoTime:()J
+  #65 = Methodref          #37.#64        //  java/lang/System.nanoTime:()J
+  #66 = Utf8               (J)Ljava/lang/StringBuffer;
+  #67 = NameAndType        #58:#66        //  append:(J)Ljava/lang/StringBuffer;
+  #68 = Methodref          #54.#67        //  java/lang/StringBuffer.append:(J)Ljava/lang/StringBuffer;
+  #69 = Utf8               toString
+  #70 = NameAndType        #69:#27        //  toString:()Ljava/lang/String;
+  #71 = Methodref          #54.#70        //  java/lang/StringBuffer.toString:()Ljava/lang/String;
+  #72 = Utf8               getl() ended at: 
+  #73 = String             #72            //  getl() ended at: 
+{
+  public sb.Square();
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #14                 // Method sb/Shape."<init>":()V
+         4: aload_0       
+         5: iconst_m1     
+         6: putfield      #16                 // Field l:I
+         9: aload_0       
+        10: ldc           #18                 // String Square-1
+        12: putfield      #20                 // Field name:Ljava/lang/String;
+        15: return        
+      LineNumberTable:
+        line 3: 0
+        line 5: 4
+        line 6: 9
+        line 3: 15
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0      16     0  this   Lsb/Square;
+
+  public java.lang.String getName();
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: getfield      #20                 // Field name:Ljava/lang/String;
+         4: areturn       
+      LineNumberTable:
+        line 9: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0       5     0  this   Lsb/Square;
+
+  public void setl(int);
+    flags: ACC_PUBLIC
+    Code:
+      stack=6, locals=5, args_size=2
+         0: getstatic     #41                 // Field java/lang/System.out:Ljava/io/PrintStream;
+         3: ldc           #43                 // String setl() start
+         5: invokevirtual #49                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+         8: iload_1       
+         9: iconst_1      
+        10: iadd          
+        11: istore_2      
+        12: aload_0       
+        13: iload_2       
+        14: iconst_1      
+        15: isub          
+        16: putfield      #16                 // Field l:I
+        19: goto          22
+        22: aconst_null   
+        23: astore        4
+        25: getstatic     #41                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        28: ldc           #51                 // String setl() end
+        30: invokevirtual #49                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        33: return        
+      LineNumberTable:
+        line 13: 8
+        line 14: 12
+        line 15: 19
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0      22     0  this   Lsb/Square;
+               0      22     1   len   I
+              12      10     2     x   I
+      StackMapTable: number_of_entries = 1
+           frame_type = 255 /* full_frame */
+          offset_delta = 22
+          locals = [ class sb/Square, int, int ]
+          stack = []
+
+
+  public int getl();
+    flags: ACC_PUBLIC
+    Code:
+      stack=8, locals=3, args_size=1
+         0: getstatic     #41                 // Field java/lang/System.out:Ljava/io/PrintStream;
+         3: new           #54                 // class java/lang/StringBuffer
+         6: dup           
+         7: invokespecial #55                 // Method java/lang/StringBuffer."<init>":()V
+        10: ldc           #57                 // String getl() started at: 
+        12: invokevirtual #61                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        15: invokestatic  #65                 // Method java/lang/System.nanoTime:()J
+        18: invokevirtual #68                 // Method java/lang/StringBuffer.append:(J)Ljava/lang/StringBuffer;
+        21: invokevirtual #71                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        24: invokevirtual #49                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        27: aload_0       
+        28: getfield      #16                 // Field l:I
+        31: goto          34
+        34: istore_2      
+        35: getstatic     #41                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        38: new           #54                 // class java/lang/StringBuffer
+        41: dup           
+        42: invokespecial #55                 // Method java/lang/StringBuffer."<init>":()V
+        45: ldc           #73                 // String getl() ended at: 
+        47: invokevirtual #61                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        50: invokestatic  #65                 // Method java/lang/System.nanoTime:()J
+        53: invokevirtual #68                 // Method java/lang/StringBuffer.append:(J)Ljava/lang/StringBuffer;
+        56: invokevirtual #71                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        59: invokevirtual #49                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        62: iload_2       
+        63: ireturn       
+      LineNumberTable:
+        line 18: 27
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0      34     0  this   Lsb/Square;
+      StackMapTable: number_of_entries = 1
+           frame_type = 98 /* same_locals_1_stack_item */
+          stack = [ int ]
+
+}
